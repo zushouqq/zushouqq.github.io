@@ -3,19 +3,6 @@
 	
 	<title>关公QQ店</title>
 	<meta charset="utf-8" />
-	<script>
-	try
-	{
-		if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/Phone/i))
-		{
-			window.location.href = './xh.html';
-		}
-	}
-	catch (e)
-	{
-	}
-	</script>
-	
 	<style type="text/css"> 
 	
 	* {
@@ -461,6 +448,18 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 		}
 		
 		el.innerHTML = heading;
+		if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/Phone/i)) {
+			if (id == 'h1') {
+				el.style.marginLeft = '30px';
+				el.style.marginBottom = '10%';
+				el.style.marginTop = '20%';
+			}
+			else if (id == 'h2') {
+				el.style.marginTop = '10%';
+				el.style.marginBottom = '20%';
+				el.style.fontSize = '50px';
+			}
+		}
 		setTimeout(function() { 
 			el.className = 'transition-in';	
 		}, (Math.random() * 500) + 500);
@@ -556,7 +555,15 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 	};
 
 })(window);
+try {
+	var container_p = document.querySelectorAll('#container p')[0];
+	container_p.style.setProperty('font-size', '40px');
+	var container_img = document.querySelectorAll('#container img')[0];
+	container_img.style.setProperty('width', '400');
+	container_img.style.setProperty('height', '120');
+} catch (e) {
 
+}
 </script>
 <embed style="height: 1px; width: 1px;" src="./music/dj.mp3" width=300 height=45 type=audio/mpeg loop="-1" autostart="false" volume="0"></embed>
 </body>
