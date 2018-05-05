@@ -1,3 +1,4 @@
+<a href="javascript :history.back(-1)">返回上一页</a>
 <p style="color: rgb(192, 0, 0); font-size: 20px; text-align: center;">本店宗旨：安全为天 诚信为本</p>
 
 <p style="color: rgb(192, 0, 0); font-size: 20px; text-align: center;">本店承诺：只卖最安全的号 不卖最便宜的号</p>
