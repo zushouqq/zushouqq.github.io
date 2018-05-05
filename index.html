@@ -556,11 +556,13 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 
 })(window);
 try {
-	var container_p = document.querySelectorAll('#container p')[0];
-	container_p.style.setProperty('font-size', '40px');
-	var container_img = document.querySelectorAll('#container img')[0];
-	container_img.style.setProperty('width', '400');
-	container_img.style.setProperty('height', '120');
+	if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/Phone/i)) {
+		var container_p = document.querySelectorAll('#container p')[0];
+		container_p.style.setProperty('font-size', '40px');
+		var container_img = document.querySelectorAll('#container img')[0];
+		container_img.style.setProperty('width', '400');
+		container_img.style.setProperty('height', '120');
+	}
 } catch (e) {
 
 }
