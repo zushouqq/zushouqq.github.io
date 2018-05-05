@@ -3,6 +3,18 @@
 	
 	<title>关公QQ店</title>
 	<meta charset="utf-8" />
+	<script>
+	try
+	{
+		if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/Phone/i))
+		{
+			window.location.href = './xh.html';
+		}
+	}
+	catch (e)
+	{
+	}
+	</script>
 	
 	<style type="text/css"> 
 	
@@ -506,7 +518,7 @@ var Stats=function(){var e=Date.now(),t=e,i=0,n=1/0,r=0,s=0,o=1/0,a=0,l=0,h=0,c=
 		ctx.frame = 1;
 		
 		logo = new Image();
-		logo.src = './logo.png';
+		//logo.src = './logo.png';
 		
 		hue = new Oscillator({
 			phase: Math.random() * Math.TWO_PI,
