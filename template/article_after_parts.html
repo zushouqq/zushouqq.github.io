@@ -1,0 +1,35 @@
+				<br /><br />
+			</div>
+		</div>
+	</div>
+	<div id="blueN">
+		<div id="blueN1">
+			<div id="buttom">
+				<p>关公QQ店&nbsp;&nbsp;&nbsp;&nbsp;版权所有&nbsp;&nbsp;&nbsp;&nbsp;</p>
+			</div>
+		</div>
+	</div>
+	<script>
+	$(document).ready(function() {
+		$("#back-to-top").hide();
+		$(function() {
+			$(window).scroll(function() {
+				if ($(window).scrollTop() > 1100) {
+					$("#back-to-top").fadeIn(500);
+				}
+				else {
+					$("#back-to-top").fadeOut(500);
+				}
+			});
+			$("#back-to-top").click(function() {
+				$('body,html').animate({scrollTop: 690}, 100);
+				return false;
+			});
+		});
+	});
+	</script>
+	<div id="back-to-top" style="display: block;"><a href="#qq_navi"><span></span></a></div>
+	<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=80003658&site=qq&menu=yes" class="alert fade in hidden-xs hidden-sm" id="qq"><img src="./img/qq.png" /></a>
+	<span></span>
+</body>
+</html>

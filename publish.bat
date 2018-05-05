@@ -1,0 +1,1 @@
+python autoindex.py PUSH
