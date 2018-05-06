@@ -10,6 +10,8 @@
 <br /><br /><p style="color: rgb(192, 0, 0); font-size: 20px; text-align: center;">找不到所需呺码，可通过添加客服QQ:80003658 委托代购服务</p>
 <p style="color: rgb(192, 0, 0); font-size: 20px; text-align: center;">（没好友的加个好友，以备不时之需）</p>
 <br /><br /><br /><p style="color: rgb(192, 0, 0); font-size: 20px; text-align: center;">———————————————————————</p>
+[18681.png]
+经典168组合回旋发财号码 价格68000元
 [72232.png]
 72232-普送二代-正在出租-接租50000元。
 [62693.jpg]
