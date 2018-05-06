@@ -5,4 +5,5 @@ autoindex.py
 #lz_static/
 #.deploy*/
 *.bak
+*.bat
 *.ignore
